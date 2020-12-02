@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fitness</title>
+	<meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="icon" href="imgs/logo-black-kitchen.png" />
+
+  </head>
+  <script>
+	
+	function MostraOcultaMenu(){
+	var elemento = document.getElementsByTagName("nav")[0];
+	if (elemento.className == "menu-principal"){
+	elemento.className = "menu-principal   responsivo";
+	} else {
+	elemento.className = "menu-principal";
+	}
+}
+</script>
+  <body>
+  
+    
+    <div class="conteudo">
+
+        <div class ="logo-principal">
+            <center>
+                <img id="logo" src="imgs/logo-black-kitchen.png">
+            </center>
+        </div>
+    
+        <div id="faixa-1">
+    
+        </div>
+    
+            <center>
+                <h1 id ="black-kitchen">BLACK KITCHEN</h1>
+            </center>
+    
+        <div id="faixa-2">
+                
+        </div></br>
+    
+    
+        <nav class="menu-principal">
+            <a href="index.html"/>HOME</a>
+            <a href="fitness.html"/>FITNESS</a>
+            <a href="artistas.html"/>ARTISTAS</a>
+        
+            <a href="javascript:void{0};" class="icone-menu" onclick="MostraOcultaMenu()">   
+            <img src="imgs/icone-menu.png"/>
+         </a>
+        
+        </nav></br>
+
+        <h1 class="titulos">***Informações sobre Receitas Fitness***</h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+             It has survived not only five centuries, but also the leap into electronic typesetting,
+             remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+             sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+             like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+        <h1 class="titulos">***Possiveis imagens de comidas fitness seguidas de suas receitas***</h1>
+
+
+
+        <div class="confira">
+            <h1>Confira nossa rede social</h1>
+            <center>
+          <a href="#"><img id="rede-social" src="imgs/rede-social-instagram.png" alt="Rede Social"></a>
+            </center>
+        </div>
+ 
+  </body>
+</html>
